@@ -1,0 +1,31 @@
+/* Navbar.css */
+nav {
+    background-color: #333; /* Dark gray background */
+    padding: 10px 20px; /* Add some padding */
+    position: absolute; /* Positioning it at the top */
+    top: 0; /* Align to the top */
+    right: 0; /* Align to the right */
+    width: auto; /* Adjust width */
+}
+
+ul {
+    list-style: none; /* Remove default list styles */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox to align items */
+    gap: 15px; /* Add space between items */
+}
+
+li {
+    display: inline; /* Align list items in a row */
+}
+
+a {
+    color: white; /* White font color */
+    text-decoration: none; /* Remove underline from links */
+    font-weight: bold; /* Make font bold */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}

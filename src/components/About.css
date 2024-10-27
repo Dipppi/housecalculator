@@ -1,0 +1,63 @@
+/* src/pages/About.css */
+
+.about-container {
+    padding: 40px;
+    background-color: #333333; /* Dark background color */
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.about-heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left; /* Left-align the main heading */
+}
+
+.about-subheading {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    text-align: left; /* Left-align the subheadings */
+}
+
+.about-paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* New styles for images and layout */
+.about-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    width: 150px; /* Adjust size as necessary */
+    height: auto;
+    margin-right: 20px; /* Spacing between image and heading */
+}
+
+.about-section {
+    display: flex;
+    align-items: flex-start; /* Align items to the top */
+    margin: 20px 0; /* Spacing between sections */
+}
+
+.about-section h2 {
+    flex: 1; /* Allow heading to take available space */
+    text-align: left; /* Left-align heading text */
+}
+
+.about-section img.right {
+    margin-left: 20px; /* Add space between the paragraph and image on the right */
+}
